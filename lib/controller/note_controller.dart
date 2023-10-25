@@ -10,6 +10,7 @@ class NoteController extends GetxController {
 
   RxList<NoteModel> listNotes = <NoteModel>[].obs;
   RxList<NoteModel> listSearch = <NoteModel>[].obs;
+  // test-feature
 
   NoteModel? noteDetail;
 
