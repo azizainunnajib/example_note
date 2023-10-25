@@ -20,6 +20,7 @@ class NoteController extends GetxController {
         .where((note) => note.title.toLowerCase().contains(query))
         .toList();
     listSearch.clear();
+
     listSearch.addAll(searchResult);
   }
 
